@@ -2,11 +2,6 @@
 #bash script that configures nginx
 apt-get update
 apt-get -y install nginx
-echo "server {
-    listen 80;
-    location / {
-        echo 'hello world!';
-    }
-}" | sudo tee /etc/nginx/sites-available/default
 ufw allow 'Nginx HTTP'
+echo "Hello World!" > /var/www/html/index.html
 service nginx start 
