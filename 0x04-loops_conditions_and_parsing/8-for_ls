@@ -1,5 +1,5 @@
 !/usr/bin/env bash
-# This script displays the content of the current directory in list format the part of the name after the first dash
+# This script displays the content of the current directory in list format 
 
 mylist=$(ls)
 
